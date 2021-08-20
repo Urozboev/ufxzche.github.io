@@ -12,6 +12,7 @@ header nav ul li, header nav ul a, footer nav ul li, footer nav ul a {
 
 header nav ul a, footer nav ul a {
     color: #f2f2f1;
+    transition: .5s;
 }
 
 header nav ul a:hover, footer nav ul a:hover {
@@ -63,6 +64,7 @@ header .img a {
     /* background-color: #FFD014; */
     border: 1px solid #ffd014;
     /* margin-bottom: 0; */
+    transition: .5s;
 }
 
 header .img a:hover {
@@ -208,6 +210,7 @@ header .img a:hover {
     text-align: center;
     margin: auto;
     margin-bottom: 60px;
+    transition: .5s;
 }
 
 .catalog .btn-more:hover {
