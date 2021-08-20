@@ -1,3 +1,7 @@
+*:hover {
+    transition: .5s;
+}
+
 header, footer {
     background-color: #1b110f;
 }
@@ -50,20 +54,27 @@ header .img h2, header .img p {
 header .img a {
     margin: auto;
     border: none;
-    color: #000;
+    color: #ffd014;
     display: block;
     font-size: 18px;
     padding: 18px 80px;
     border-radius: 10px;
     text-decoration: none;
-    background-color: #FFD014;
+    /* background-color: #FFD014; */
+    border: 1px solid #ffd014;
     /* margin-bottom: 0; */
+}
+
+header .img a:hover {
+    background-color: #ffd014;
+    color: black;
 }
 /*  */
 
 .types {
     margin-top: 100px;
     background-color: #f5f5f5;
+    padding-bottom: 30px;
 }
 
 .types h2 {
@@ -82,6 +93,7 @@ header .img a {
 .types p {
     margin-top: 22px;
     font-weight: 500;
+    font-size: 18px;
 }
 
 /* .check {
